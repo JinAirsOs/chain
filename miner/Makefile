@@ -72,7 +72,7 @@ MY_CFLAGS = -g -lpthread -I./ -I./ccan/opt -I./compat/jansson-2.9/src -I./lib
 
 # The linker options.
 # MY_LIBS   = -lGLEW -lglut -lGLU -lGL -lX11 -lXmu -lXi -lm -L/usr/X11R6/lib -lgomp -lOpenThreads -lpthread
-MY_LIBS   = -lm -lrt -lz -I /usr/local/cuda/include -L /usr/local/cuda/lib64 -lcudart -lcublas
+MY_LIBS   = -lm -lrt  -I /usr/local/cuda/include -L /usr/local/cuda/lib64 -lcudart -lcublas
 
 # The pre-processor options used by the cpp (man cpp for more).
 CPPFLAGS  =
